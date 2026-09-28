@@ -1,6 +1,6 @@
 # Git Local Assistant
 
-A local workspace, beginner-friendly browser dashboard that helps a single developer
+A local , beginner-friendly browser dashboard that helps a single developer
 safely manage Git operations on a local project — **without ever hiding what
 Git is actually doing.**
 
