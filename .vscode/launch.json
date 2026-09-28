@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Git Local Assistant",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "git_local_assistant",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": []
+        },
+        {
+            "name": "Git Local Assistant (custom port, no browser)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "git_local_assistant",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--port", "7333", "--no-browser"]
+        },
+        {
+            "name": "Run tests (pytest)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["-q"]
+        }
+    ]
+}
